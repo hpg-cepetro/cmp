@@ -1,8 +1,8 @@
 # Common Mid Point
 
-This is a toy program that estimates the _best_ velocity parameter for each
-seismic session point, using a "brute force" algorithm. Notion of _best_ is
-given by the _semblance_ correlation function (see below).
+This is a toy program that estimates the best velocity parameter for each
+seismic session point, using a brute force algorithm. Notion of best is given
+by the semblance correlation function.
 
 # Building & Testing
 
@@ -19,5 +19,5 @@ the program.
 
 # License
 
-This software is licensed as GPL version 2. It also makes use of the [UT Hash
-library](https://troydhanson.github.io/uthash/), which is BSD Revised.
+This software is licensed under GPL version 2. It also makes use of the [UT
+Hash library](https://troydhanson.github.io/uthash/), which is BSD Revised.
