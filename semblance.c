@@ -21,9 +21,9 @@
 
 #include <math.h>
 #include <string.h>
-#include <vector.h>
-#include <utils.h>
-#include <interpol.h>
+#include "vector.h"
+#include "utils.h"
+#include "interpol.h"
 
 static float time2d(float A, float B, float C, float t0,
 		float m0x, float m0y,

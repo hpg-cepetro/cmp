@@ -21,12 +21,12 @@
 #include <stdlib.h>
 #include <float.h>
 #include <math.h>
-#include <vector.h>
-#include <uthash.h>
-#include <interpol.h>
-#include <semblance.h>
-#include <log.h>
-#include <su.h>
+#include "vector.h"
+#include "uthash.h"
+#include "interpol.h"
+#include "semblance.h"
+#include "log.h"
+#include "su.h"
 
 struct cdp_traces {
 	int cdp;
