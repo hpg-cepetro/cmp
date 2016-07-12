@@ -1,4 +1,4 @@
-ifeq ($(shell uname -p),ppc64le)
+ifeq ($(shell uname -m),ppc64le)
     CFLAGS = -std=c99 -Ofast -fpeel-loops -flto -Wl,-q -fopenmp -mcmodel=medium -ftree-vectorize -mcpu=power8 -mtune=power8 -funroll-loops
 
 else
