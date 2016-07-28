@@ -9,4 +9,4 @@ all: cmp.c gather.c gather.h interpol.c interpol.h log.c log.h semblance.c sembl
 	gcc $(CFLAGS) *.c -o cmp -lm
 
 clean: cmp 
-	rm cmp 
+	rm cmp cmp.coher.su cmp.stack.su
