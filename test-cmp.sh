@@ -1,7 +1,7 @@
 #!/bin/bash
 
 data=simple-syntetic-micro.su
-prog=./build/cmp
+prog=./cmp
 cmin="1.98e-7"
 cmax="1.77e-6"
 cnum="101"

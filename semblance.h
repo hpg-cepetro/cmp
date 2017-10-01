@@ -20,8 +20,8 @@
 #ifndef SEMBLANCE_H__
 #define SEMBLANCE_H__
 
-#include <vector.h>
-#include <su.h>
+#include "vector.h"
+#include "su.h"
 
 typedef struct aperture aperture_t;
 
